@@ -76,7 +76,7 @@ export default function Research() {
             </div>
 
             {/* Expected Impact */}
-            <div className="mb-12">
+            <div className="mb-10">
               <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-4">
                 Expected Impact
               </h2>
@@ -99,8 +99,31 @@ export default function Research() {
               </ul>
             </div>
 
+            {/* Research-to-Platform Translation */}
+            <div className="mb-10">
+              <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-4">
+                Research-to-Platform Translation (Conceptual)
+              </h2>
+              <ul className="space-y-3">
+                {[
+                  "Academic research and methodological development",
+                  "Ethical and Shariah-compliant AI frameworks",
+                  "Institutional and financial infrastructure design",
+                  "Downstream implementation by affiliated entities (outside this research scope)",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-start gap-3 text-foreground/85"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2.5 flex-shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
             {/* Collaboration Box */}
-            <div className="focus-card bg-accent/30 border border-accent">
+            <div className="focus-card bg-accent/30 border border-accent mb-10">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Users className="w-5 h-5 text-primary" />
@@ -115,6 +138,13 @@ export default function Research() {
                   </p>
                 </div>
               </div>
+            </div>
+
+            {/* Research Translation Note */}
+            <div className="border-t border-border pt-6">
+              <p className="text-xs text-muted-foreground/70">
+                Research outcomes may later be translated into platforms, policy frameworks, or services under ME VENTURES and affiliated entities. This website serves as an academic and conceptual research hub.
+              </p>
             </div>
           </div>
         </div>

@@ -40,10 +40,13 @@ export default function Home() {
       >
         <div className="container-narrow">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-4 animate-fade-up">
-              Khwanchai
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-2 animate-fade-up">
+              Khwanchai Huailuk
             </h1>
-            <p className="text-lg sm:text-xl text-primary font-medium mb-6 animate-fade-up-delay-1">
+            <p className="text-lg sm:text-xl text-muted-foreground font-medium mb-6 animate-fade-up-delay-1">
+              Ph.D. Researcher in AI-Driven Financial Infrastructure
+            </p>
+            <p className="text-base sm:text-lg text-primary font-medium mb-6 animate-fade-up-delay-1">
               AI-Driven Financial Infrastructure for Inclusive and
               Shariah-Compliant Finance
             </p>

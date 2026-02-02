@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Mail, Linkedin, Copy, Check, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
 
-const PLACEHOLDER_EMAIL = "khwanchai@domain.com";
+const PLACEHOLDER_EMAIL = "info@meventures.vc";
 const PLACEHOLDER_LINKEDIN = "#";
 
 export default function Contact() {
