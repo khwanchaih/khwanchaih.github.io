@@ -37,9 +37,10 @@ export default function Navbar() {
       <nav className="container-narrow flex items-center justify-between h-16 sm:h-20">
         <NavLink
           to="/"
-          className="font-serif text-xl sm:text-2xl font-semibold text-foreground tracking-tight"
+          className="font-serif text-base sm:text-lg font-semibold text-foreground tracking-tight"
         >
-          Khwanchai
+          <span className="text-primary">ME VENTURES</span>
+          <span className="text-muted-foreground"> · Research</span>
         </NavLink>
 
         {/* Desktop Nav */}
