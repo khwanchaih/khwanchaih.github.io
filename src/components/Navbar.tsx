@@ -39,8 +39,8 @@ export default function Navbar() {
           to="/"
           className="font-serif text-base sm:text-lg font-semibold text-foreground tracking-tight"
         >
-          <span className="text-primary">ME VENTURES</span>
-          <span className="text-muted-foreground"> · Research</span>
+          <span className="text-primary">KHWANCHAI HUAILUK</span>
+          <span className="text-muted-foreground"> · PhD researcher</span>
         </NavLink>
 
         {/* Desktop Nav */}
